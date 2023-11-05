@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+body {
+  max-width: 100%;
+  background-color: #808080;
+  font-size: 16px;
+  font-family: 'arial','Hiragino Sans','Meiryo',sans-serif;
+  color: #333333;
+}
+header {
+  width: 90%;
+  margin: 0 auto 44px;
+}
+header img {
+    width: 100%;
+}
+h1 {
+  text-align: center;
+  padding: 20px 0px 0px;
+}
+header nav ul {
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  background-color: rgba(255,255,255,0.42);
+  padding: 12px 0px 10px;
+}
+header nav ul li {
+  margin: 0 20px;
+}
+header nav ul li a {
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+}
+header nav ul li a:hover {
+  text-decoration: underline double;
+}
+div {
+  width: 90%;
+  margin: 0 auto 50px;
+  display: flex;
+  justify-content: space-between;
+}
+figure img {
+    width: 50%;
+}
+main {
+  width: 70%;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 62px 5% 32px 5%;
+  box-shadow: 0px 0px 8px rgba(0,0,0,0.16);
+}
+aside {
+  width: 25%;
+}
+aside nav {
+  border-radius: 16px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0,0,0,0.16);
+  padding: 24px 28px;
+  margin-bottom: 24px;
+}
+aside nav h2 {
+  margin-bottom: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+}
+aside nav ul {
+  font-size: 14px;
+}
+.categoryNav ul li {
+  list-style-type: square;
+  color: black;
+  margin: 0 0 16px 20px;
+}
+.categoryNav ul li a {
+  color: #333333;
+}
+.recentNav ul li {
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 22px;
+}
+.recentNav ul {
+  height: 240px;
+  overflow: hidden scroll;
+}
+article h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.eyecatch {
+  margin-bottom: 26px;
+}
+article h3 {
+  border-bottom: 2px solid #808080;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 600;
+  padding: 20px 10px 10px 0px;
+}
+article section p {
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+article section {
+  margin-bottom: 50px;
+}
+footer {
+  background-color: black;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 10px 20px;
+}
