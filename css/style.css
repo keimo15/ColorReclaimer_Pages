@@ -46,6 +46,9 @@ div {
 figure img {
     width: 50%;
 }
+figure video {
+    width: 50%;
+}
 main {
   width: 70%;
   background-color: #ffffff;
